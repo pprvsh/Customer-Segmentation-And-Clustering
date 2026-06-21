@@ -32,16 +32,20 @@ Customer segmentation is the practice of dividing a customer base into groups of
 
 customer-segmentation/
 │
-├── data/
+data/
 │   ├── raw/                # Original, immutable data
 │   └── processed/          # Cleaned and transformed data
-│
+
+
+
 ├── notebooks/
 │   ├── 01_eda.ipynb              # Exploratory Data Analysis
 │   ├── 02_preprocessing.ipynb    # Cleaning & feature engineering
 │   ├── 03_clustering.ipynb       # Model building & evaluation
 │   └── 04_visualization.ipynb    # Cluster profiling & plots
-│
+
+
+
 ├── src/
 │   ├── data_preprocessing.py
 │   ├── clustering_model.py
@@ -49,7 +53,9 @@ customer-segmentation/
 │
 ├── reports/
 │   └── figures/             # Generated charts and plots
-│
+
+
+
 ├── requirements.txt
 ├── README.md
 └── LICENSE
